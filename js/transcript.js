@@ -82,8 +82,8 @@ var ul = uls[0];
 ul.appendChild(li);
 
 // Let's try move it up to the top of the list
-var firstLi = ul.getElementsByTagName('li');
-ul.insertBefore(li, firstLi);
+var firstLi = uls.getElementsByTagName('li');
+uls.insertBefore(li, firstLi);
 
 firstLi.classList.remove('active');
 // Starting to get messy
